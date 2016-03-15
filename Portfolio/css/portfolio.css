@@ -1,0 +1,32 @@
+.rishi_gupta {
+  text-align: right;
+}
+
+.featured_work {
+  color: #bcbbbb;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+
+.project_title {
+  font-weight: 400;
+  color: #747704;
+  text-align: center;
+}
+
+.project_description {
+  font-size: 0.75em;
+  font-weight: 300;
+  color: #747704;
+  text-align: center;
+
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  max-width: 960px;
+  margin: 0 auto !important;
+  float: none !important;
+}
