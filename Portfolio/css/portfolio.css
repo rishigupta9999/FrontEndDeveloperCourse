@@ -1,3 +1,11 @@
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  max-width: 960px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
 .rishi_gupta {
   text-align: right;
   font-size: 1.5em;
@@ -7,13 +15,19 @@
   color: #bcbbbb;
   font-weight: 400;
   letter-spacing: 1px;
-  padding-left: 20px;
+  padding-left: 10px;
+}
+
+.divider {
+  background-color: #bcbbbb;
+  height: 5px;
 }
 
 .project_title {
   font-weight: 400;
   color: #747704;
   text-align: center;
+  font-size: 1.5em;
 }
 
 .project_description {
@@ -21,13 +35,28 @@
   font-weight: 300;
   color: #747704;
   text-align: center;
-
+  font-size: 1em;
 }
 
-* {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  max-width: 960px;
-  margin: 0 auto !important;
-  float: none !important;
+.header_row {
+  padding-top: 50px;
+  padding-bottom: 20px
+}
+
+.featured_image_left {
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px 0px 0px;
+}
+
+.featured_image_middle {
+  width: 100%;
+  height: 100%;
+  padding: 0px 5px 0px 5px;
+}
+
+.featured_image_right {
+  width: 100%;
+  height: 100%;
+  padding: 0px 0px 0px 10px;
 }
