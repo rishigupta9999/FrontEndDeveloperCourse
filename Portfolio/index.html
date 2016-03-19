@@ -2,45 +2,47 @@
 <html>
 <head>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Rishi Gupta Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type='text/css'>
+
   <script type="text/javascript" src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
   <link rel="import" href="elements/portfolio-header.html">
   <link rel="import" href="elements/portfolio-item.html">
 
 </head>
 
-  <portfolio-header name="Rishi Gupta" skills="C++, Ruby on Rails, JavaScript, HTML5/CSS3"></portfolio-header>
+  <div class="container">
+    <portfolio-header name="Rishi Gupta" skills="C++, Ruby on Rails, JavaScript, HTML5/CSS3"></portfolio-header>
 
-  <div class="row" style="padding-bottom: 20px">
-    <div class="col-12 divider"></div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <img src="images/darth_vader.jpg" alt="Darth Vader" style="width: 100%; padding-bottom: 30px">
+    <div class="row">
+      <div class="col-12">
+        <div class="divider">
+      </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-12">
-      <h2 class="featured_work">Featured Work</h2>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="images/darth_vader.jpg" alt="Darth Vader" class="img-responsive">
+      </div>
     </div>
-  </div>
 
-  <div class="row">
-    <portfolio-item name="Pizza Rush" url="https://itunes.apple.com/us/app/pizza-rush/id897364582?mt=8" image="images/pizza_rush.jpg" imageclass="featured_image_left" class="col-4"></portfolio-item>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="featured_work">Featured Work</h2>
+      </div>
+    </div>
 
-    <portfolio-item name="Solitaire 21" url="https://itunes.apple.com/us/app/solitaire-21-fast-blackjack/id792212290?mt=8" image="images/solitaire_21.jpg" imageclass="featured_image_middle" class="col-4"></portfolio-item>
+    <div class="row">
+      <portfolio-item name="Pizza Rush" url="https://itunes.apple.com/us/app/pizza-rush/id897364582?mt=8" image="images/pizza_rush.jpg"></portfolio-item>
 
-    <portfolio-item name="Solitaire 21" url="http://www.xbox.com/en-us/Developers/id" image="images/xbox_logo.jpg" imageclass="featured_image_right" class="col-4"></portfolio-item>
-  </div>
+      <portfolio-item name="Solitaire 21" url="https://itunes.apple.com/us/app/solitaire-21-fast-blackjack/id792212290?mt=8" image="images/solitaire_21.jpg"></portfolio-item>
 
-  
-  <div>
-    
+      <portfolio-item name="Solitaire 21" url="http://www.xbox.com/en-us/Developers/id" image="images/xbox_logo.jpg"></portfolio-item>
+    </div>
   </div>
 
 </html>

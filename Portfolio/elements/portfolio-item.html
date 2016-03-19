@@ -1,11 +1,13 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <dom-module id="portfolio-item">
     <template>
-      <a href$="{{url}}">
-        <img class$="{{imageclass}}" src="{{image}}" alt="{{name}}">
-        <div class="project_title">{{name}}</div>
-        <div class="project_description">{{url}}</div>
-      </a>
+      <div class="center-block text-center col-md-4">
+        <a href$="{{url}}">
+          <img class="img-responsive portfolio_image" src="{{image}}" alt="{{name}}">
+          <div class="project_title">{{name}}</div>
+          <div class="project_description">{{url}}</div>
+        </a>
+      </div>
     </template>
 
     <script>

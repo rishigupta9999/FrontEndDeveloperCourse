@@ -1,17 +1,15 @@
+
 * {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  max-width: 960px;
-  margin: 0 auto !important;
-  float: none !important;
 }
+
 
 a:link {
     text-decoration: none;
 }
 
 .rishi_gupta {
-  text-align: right;
   font-size: 1.5em;
 }
 
@@ -30,7 +28,6 @@ a:link {
 .project_title {
   font-weight: 400;
   color: #747704;
-  text-align: center;
   font-size: 1.5em;
 }
 
@@ -38,29 +35,17 @@ a:link {
   font-size: 0.75em;
   font-weight: 300;
   color: #747704;
-  text-align: center;
   font-size: 1em;
 }
 
-.header_row {
-  padding-top: 50px;
-  padding-bottom: 20px
+.divider {
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.featured_image_left {
+.portfolio_image {
   width: 100%;
-  height: 100%;
-  padding: 0px 10px 0px 0px;
-}
-
-.featured_image_middle {
-  width: 100%;
-  height: 100%;
-  padding: 0px 5px 0px 5px;
-}
-
-.featured_image_right {
-  width: 100%;
-  height: 100%;
-  padding: 0px 0px 0px 10px;
+  overflow: hidden;
 }
